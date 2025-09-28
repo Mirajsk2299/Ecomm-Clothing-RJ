@@ -1,0 +1,24 @@
+@media (max-width: 991px) {
+  .nav-item {
+    margin-bottom: 9px;
+    margin-top: 9px;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-item {
+    width: 70%;
+  }
+
+  .login-btn {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+}
