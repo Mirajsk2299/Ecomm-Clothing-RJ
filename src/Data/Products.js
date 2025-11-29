@@ -1,10 +1,8 @@
-// Tiny fake database of clothing products for demo
 export const Products = [
-  // Export an array of product objects
   {
     id: 1,
     name: "Classic Tee",
-    price: 499, // Price in INR
+    price: 499, 
     image:
       "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200&auto=format&fit=crop",
     description: "Soft cotton unisex t-shirt. Everyday essential.",
