@@ -11,7 +11,7 @@ const Navbar = ({ search, setSearch }) => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary p-2">
         <div className="container-fluid">
-          {/* Brand */}
+          {/* Brand */
           <div className="navBrand-div d-flex align-items-center me-2 ms-5">
             <Link className="navbar-brand" to="/">
               E-Comm
