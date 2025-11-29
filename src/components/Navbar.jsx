@@ -24,7 +24,7 @@ const Navbar = ({ search, setSearch }) => {
             />
           </div>
 
-          {/* Toggler (mobile menu button) */}
+          
           <button
             className="navbar-toggler"
             type="button"
