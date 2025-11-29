@@ -7,7 +7,6 @@ import Home from "./components/Home";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-// import { Products } from "./Data/Products.js";
 import Productdetails from "./pages/Productdetails";
 
 import Cart from "./pages/Cart";
