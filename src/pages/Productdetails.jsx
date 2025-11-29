@@ -38,13 +38,13 @@ const ProductDetails = () => {
           maxWidth: "900px",
           width: "100%",
           gap: "2rem",
-          flexWrap: "wrap", // allows wrapping on small screens
+          flexWrap: "wrap", 
         }}
       >
-        {/* Product Image */}
+        
         <div
           style={{
-            flex: "1 1 300px", // grow and shrink, min width 300px
+            flex: "1 1 300px", 
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -63,10 +63,10 @@ const ProductDetails = () => {
           />
         </div>
 
-        {/* Product Details */}
+        
         <div
           style={{
-            flex: "1 1 300px", // grow and shrink, min width 300px
+            flex: "1 1 300px", 
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -88,7 +88,7 @@ const ProductDetails = () => {
             Price: ₹ {selectedProduct.price}
           </p>
 
-          {/* Buttons */}
+          
           <div
             style={{
               display: "flex",
