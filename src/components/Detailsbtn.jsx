@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const DetailsBtn = ({ productId }) => {
-  const navigate = useNavigate(); // useNavigate hook must be inside component
+  const navigate = useNavigate(); 
 
   return (
     <button
@@ -18,7 +18,7 @@ const DetailsBtn = ({ productId }) => {
         alignItems: "center",
         justifyContent: "center",
       }}
-      onClick={() => navigate(`/product/${productId}`)} // use productId prop
+      onClick={() => navigate(`/product/${productId}`)} 
     >
       Details
     </button>
