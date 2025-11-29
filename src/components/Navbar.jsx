@@ -11,7 +11,7 @@ const Navbar = ({ search, setSearch }) => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary p-2">
         <div className="container-fluid">
-          {/* Brand */
+          
           <div className="navBrand-div d-flex align-items-center me-2 ms-5">
             <Link className="navbar-brand" to="/">
               E-Comm
@@ -37,7 +37,7 @@ const Navbar = ({ search, setSearch }) => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          {/* Collapsible menu */}
+          
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
               <li className="nav-item me-3 border border-dark rounded text-nowrap">
@@ -46,7 +46,7 @@ const Navbar = ({ search, setSearch }) => {
                 </Link>
               </li>
 
-              {/* Wishlist link */}
+            
               <li className="nav-item me-3 border border-dark rounded text-nowrap">
                 <Link className="nav-link" to="/wishlist">
                   Wishlist{" "}
@@ -63,7 +63,7 @@ const Navbar = ({ search, setSearch }) => {
                 </Link>
               </li>
 
-              {/* Cart link */}
+            
               <li className="nav-item me-3 border border-dark rounded text-nowrap">
                 <Link className="nav-link" to="/cart">
                   Cart 🛒
@@ -89,7 +89,7 @@ const Navbar = ({ search, setSearch }) => {
               </li>
             </ul>
 
-            {/* Login button */}
+            
             <Link to="/login" style={{ textDecoration: "none" }}>
               <div
                 className="login-btn me-3"
@@ -110,7 +110,7 @@ const Navbar = ({ search, setSearch }) => {
               </div>
             </Link>
 
-            {/* Search form */}
+          
             <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
