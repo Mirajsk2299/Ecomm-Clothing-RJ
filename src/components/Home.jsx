@@ -1,11 +1,9 @@
 import React from "react";
 import { Products } from "../Data/Products.js";
-// import { useNavigate } from "react-router-dom";
 import Addbutton from "./Addcartbtn.jsx";
-import Detailsbtn from "./Detailsbtn.jsx"; // small 'b'
+import Detailsbtn from "./Detailsbtn.jsx"; 
 
 const Home = ({ search }) => {
-  // Filter products based on search text
   const filteredProducts = Products.filter((product) =>
     product.name.toLowerCase().includes(search.toLowerCase())
   );
